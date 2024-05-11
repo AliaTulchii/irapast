@@ -1,19 +1,31 @@
 {
   "files": {
-    "main.css": "/irapast/static/css/main.0dba928f.css",
-    "main.js": "/irapast/static/js/main.e4a4cc23.js",
+    "main.css": "/irapast/static/css/main.312a1a9b.css",
+    "main.js": "/irapast/static/js/main.4dd3d38b.js",
     "static/media/photo.jpeg": "/irapast/static/media/photo.13717da89ca11fc7ee33.jpeg",
     "static/media/marble.jpg": "/irapast/static/media/marble.2c43fe3a6df352a5eb8a.jpg",
+    "static/media/photo-9.jpg": "/irapast/static/media/photo-9.756ce5b1afbcf796b45f.jpg",
+    "static/media/photo-6.jpg": "/irapast/static/media/photo-6.366c8ed9732679b68f05.jpg",
+    "static/media/photo-8.jpg": "/irapast/static/media/photo-8.f51e92af1571c783c81b.jpg",
+    "static/media/photo-5.jpg": "/irapast/static/media/photo-5.566dafd78f7b5ad8684c.jpg",
+    "static/media/photo-4.jpg": "/irapast/static/media/photo-4.91b4489e3277811e0a10.jpg",
+    "static/media/photo-7.jpg": "/irapast/static/media/photo-7.e5d6aab6bedb3005ce5b.jpg",
+    "static/media/photo-11.jpg": "/irapast/static/media/photo-11.49c7e5238dee6e088ddb.jpg",
+    "static/media/photo-10.jpg": "/irapast/static/media/photo-10.c1d424eacf74af916750.jpg",
+    "static/media/photo-2.jpg": "/irapast/static/media/photo-2.5b7ddf1566c5ebbb65ea.jpg",
+    "static/media/photo-3.jpg": "/irapast/static/media/photo-3.810a77dbe4cf5c33a5fd.jpg",
+    "static/media/photo-1.jpg": "/irapast/static/media/photo-1.e0945fcb5e778f26889e.jpg",
+    "static/media/photo-12.jpg": "/irapast/static/media/photo-12.932ba4772307220a975a.jpg",
     "static/media/logo-beige.png": "/irapast/static/media/logo-beige.8d4c4320e12c0a6ffeca.png",
     "static/media/logo.png": "/irapast/static/media/logo.5855ac89ed2e3988e762.png",
     "static/media/tiktok.svg": "/irapast/static/media/tiktok.77bb3d6a5e10a1783829879742e73d4b.svg",
-    "static/media/inst.svg": "/irapast/static/media/inst.415aab01f9bcaf696b77c8d366aa92dd.svg",
+    "static/media/inst.svg": "/irapast/static/media/inst.a1fd2e48b15e6c993ebb224aa18fd71b.svg",
     "index.html": "/irapast/index.html",
-    "main.0dba928f.css.map": "/irapast/static/css/main.0dba928f.css.map",
-    "main.e4a4cc23.js.map": "/irapast/static/js/main.e4a4cc23.js.map"
+    "main.312a1a9b.css.map": "/irapast/static/css/main.312a1a9b.css.map",
+    "main.4dd3d38b.js.map": "/irapast/static/js/main.4dd3d38b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dba928f.css",
-    "static/js/main.e4a4cc23.js"
+    "static/css/main.312a1a9b.css",
+    "static/js/main.4dd3d38b.js"
   ]
 }
