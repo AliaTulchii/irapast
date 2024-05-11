@@ -9,22 +9,22 @@ const Nav = () => {
     <div>
       <nav className="nav__list">
               <li className="nav__item">
-                <Link to={'/'} className="nav__link lng-home">
+                <Link to='/' className="nav__link lng-home">
                   Головна
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to={'/portfolio'} className="nav__link lng-portfolio">
+                <Link to='/portfolio' className="nav__link lng-portfolio">
                   Портфоліо
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to={'/price'} className="nav__link lng-price">
+                <Link to='/price' className="nav__link lng-price">
                   Прайс
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to={'/contacts'} className="nav__link lng-contact">
+                <Link to='/contacts' className="nav__link lng-contact">
                   Контакти
                 </Link>
               </li>
