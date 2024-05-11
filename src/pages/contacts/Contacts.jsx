@@ -8,7 +8,8 @@ import Inst from './../../img/contacts/inst.svg'
 import Tiktok from './../../img/contacts/tiktok.svg'
 import Photo from './../../img/contacts/photo-4.jpg'
 
-
+import { motion } from 'framer-motion'
+import { transition1 } from '../../transitions'
 
 
 
@@ -18,10 +19,20 @@ const Contacts = () => {
       <Header/>
       <section class="contact container">
     <div class="contact__left">
-        <img class='contact__img' src={Photo} alt="people" />
+          <motion.img
+            initial={{ scale: 0}}
+            animate={{ scale: 1}}
+            exit={{ scale: 0}}
+            transition={transition1}
+            class='contact__img' src={Photo} alt="people" />
       </div>
       
-  <div class="contact__right">    
+        <motion.div
+          initial={{ opacity: 0, y: '50%'}}
+          animate={{ opacity: 1, y: 0}}
+          exit={{ opacity: 0, y: '50%' }}
+          transition={transition1}
+          class="contact__right">    
     <address>            
         <ul class="contact__list">
            <li class="contact__item">
@@ -48,7 +59,7 @@ const Contacts = () => {
                 </a>
             </li>
         </ul>
-  </div>  
+  </motion.div>  
       </section>
       <Footer/>
     </div>

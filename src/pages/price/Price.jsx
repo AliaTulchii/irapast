@@ -4,12 +4,19 @@ import './style.css'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 
+import { motion } from 'framer-motion'
+import { transition1 } from '../../transitions'
 
 const Price = () => {
   return (
     <>
       <Header/>
-      <section className="price container">
+          <motion.section
+           initial={{ scale: 0}}
+           animate={{ scale: 1}}
+           exit={{ scale: 0}}
+           transition={transition1}
+              className="price container">
     <div className="price__box">
         <h1 className="price__title title">Price list</h1>
 
@@ -92,7 +99,7 @@ const Price = () => {
     </ul>
     </div>
     
-      </section>
+      </motion.section>
       
       <Footer/>
     </>
