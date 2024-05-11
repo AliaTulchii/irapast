@@ -1,0 +1,103 @@
+
+.price {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    padding: 150px 150px 100px;
+    background-color: rgba(204, 176, 161, 0.6274509804);
+    background-image: url(./../../img/price/marble.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+  }
+  @media (max-width: 850px) {
+    .price {
+      max-width: 768px;
+      margin-top: 100px;
+    padding: 120px 40px 100px;
+
+    }
+  }
+  
+  .price__box {
+    padding: 30px;
+    background-color: rgba(246, 243, 243, 0.6117647059);
+  }
+  
+  .price__title {
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
+  }
+  @media (max-width: 850px) {
+    .price__title {
+      font-size: 28px;
+    }
+  }
+  
+  .price__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  @media (max-width: 850px) {
+    .price__list {
+      gap: 30px;
+    }
+  }
+  
+  .price__list--box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 60px;
+  }
+  @media (max-width: 850px) {
+    .price__list--box {
+      flex-direction: column;
+    }
+  }
+  
+  .price__item--last {
+    width: 350px;
+  }
+  @media (max-width: 850px) {
+    .price__item--last {
+      width: 400px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .price__item--last {
+      width: 230px;
+    }
+  }
+
+  .price__subtitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    border-bottom: solid 1px;
+    margin-bottom: 15px;
+  }
+  @media (max-width: 850px) {
+    .price__subtitle {
+      font-size: 16px;
+    }
+  }
+  
+  .price__span--text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+
+    @media  (max-width: 767px) {
+        font-size: 9px;
+    }
+  }
+  
+ 
