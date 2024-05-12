@@ -16,7 +16,6 @@ import { transition1 } from '../../transitions'
 const Contacts = () => {
   return (
     <div>
-      <Header/>
       <section class="contact container">
     <div class="contact__left">
           <motion.img

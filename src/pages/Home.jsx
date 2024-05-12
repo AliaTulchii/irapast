@@ -6,6 +6,7 @@ import Footer from "./../components/footer/Footer";
 
 import { motion } from 'framer-motion'
 import { transition1 } from '../transitions';
+import { Outlet } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -15,10 +16,10 @@ const Home = () => {
       exit={{ opacity: 0 }}
       transition={transition1}
     >
-      <Header/>
+      
       <Hero/>
       <About />
-      <Footer/>
+      <Footer />
     </motion.section>
   )
 }

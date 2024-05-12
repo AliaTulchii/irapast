@@ -21,7 +21,6 @@ const Portfolio = () => {
 
   return (
     <>
-      <Header/>
     <section class="portfolio container">
   <h2 className="title lng-portfoliotitle">
     Портфоліо

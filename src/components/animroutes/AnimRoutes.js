@@ -6,17 +6,22 @@ import Contacts from '../../pages/contacts/Contacts'
 
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
+import Layout from '../Layout/Layout'
 
 
 const AnimRoutes = () => {
-  const location = useLocation();
+  // const location = useLocation();
+  // key={location.pathname} location={location}
     return (
       <AnimatePresence initial={true} mode='wait'>
-        <Routes key={location.pathname} location={location}>
-          <Route path='/' element={<Home />} />
-          <Route path='/portfolio' element={<Portfolio/>} />
-          <Route path='/price' element={<Price/>} />
-          <Route path='/contacts' element={<Contacts/>} />
+        <Routes >
+          <Route path='/' element={<Layout />} >
+          <Route index element={<Home/>} />
+          <Route path='portfolio' element={<Portfolio/>} />
+          <Route path='price' element={<Price/>} />
+          <Route path='contacts' element={<Contacts/>} />
+          </Route>
+          
         </Routes>
         </AnimatePresence>
   )

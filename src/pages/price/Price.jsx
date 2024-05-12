@@ -10,7 +10,6 @@ import { transition1 } from '../../transitions'
 const Price = () => {
   return (
     <>
-      <Header/>
           <motion.section
            initial={{ scale: 0}}
            animate={{ scale: 1}}
