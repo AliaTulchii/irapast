@@ -6,11 +6,18 @@ import tiktok from "./../../img/footer/tiktok.svg";
 import mail from "./../../img/footer/email.png";
 
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import {transition1} from './../../transitions'
 
 const Footer = () => {
   return (
     
-      <footer className="footer">
+    <motion.footer
+      initial={{ opacity: 0, y: '100%' }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: '100%' }}
+      transition={transition1}
+      className="footer">
         <div className="footer__container container">
           <div className="logo">
             <Link href={'/'} className="logo__link">
@@ -76,7 +83,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </footer>
+      </motion.footer>
   )
 }
 
