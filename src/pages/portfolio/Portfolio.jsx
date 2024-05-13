@@ -29,7 +29,7 @@ const Portfolio = () => {
         
 
 
-        <div className='portfolio__carousel '>
+        <div className='portfolio__carousel portfolio__carousel--next'>
           <div className='portfolio__list'>
             <div className='portfolio__item'>
               <img src={Family} alt="family" className='portfolio__img'/>
