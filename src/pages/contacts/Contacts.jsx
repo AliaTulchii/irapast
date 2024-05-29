@@ -1,7 +1,5 @@
 import React from 'react'
 import './style.css'
-import Header from './../../components/header/Header'
-import Footer from './../../components/footer/Footer'
 import Address from './../../img/contacts/address.png'
 import Email from './../../img/contacts/email.png'
 import Inst from './../../img/contacts/inst.svg'
@@ -60,7 +58,7 @@ const Contacts = () => {
         </ul>
   </motion.div>  
       </section>
-      <Footer/>
+      
     </div>
   )
 }

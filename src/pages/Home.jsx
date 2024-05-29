@@ -1,12 +1,10 @@
 import React from 'react'
-import Header from './../components/header/Header'
 import Hero from "./../components/hero/Hero";
 import About from "./../components/about/About";
-import Footer from "./../components/footer/Footer";
 
 import { motion } from 'framer-motion'
 import { transition1 } from '../transitions';
-import { Outlet } from 'react-router-dom';
+
 
 const Home = () => {
   return (
@@ -16,10 +14,8 @@ const Home = () => {
       exit={{ opacity: 0 }}
       transition={transition1}
     >
-      
       <Hero/>
       <About />
-      <Footer />
     </motion.section>
   )
 }

@@ -1,9 +1,6 @@
 import React from 'react'
 import './style.css'
 
-import Header from '../../components/header/Header'
-import Footer from '../../components/footer/Footer'
-
 import { motion } from 'framer-motion'
 import { transition1 } from '../../transitions'
 
@@ -99,8 +96,7 @@ const Price = () => {
     </div>
     
       </motion.section>
-      
-      <Footer/>
+
     </>
   )
 }

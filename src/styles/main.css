@@ -96,6 +96,7 @@ legend {
   --page-bg: #fff;
   --text-color: #000;
   --accent: #b49c8f;
+  --accent-hover: #e4c9ba;
   --accent-second: #f6f3f3;
   --laptop-size: 1199px;
   --tablet-size: 768px;
@@ -202,7 +203,7 @@ html, body {
 }
 
 .logo__img {
-  height: 90px;
+  height: 100px;
 }
 @media (max-width: 850px) {
   .logo__img {
