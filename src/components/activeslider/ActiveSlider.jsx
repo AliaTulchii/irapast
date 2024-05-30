@@ -24,7 +24,7 @@ const ActiveSlider = () => {
     return (
       <div>
         <motion.div
-      initial={{ scale: 0}}
+      initial={{ scale: 0.7}}
       animate={{ scale: 1}}
       exit={{ scale: 0}}
       transition={transition1}
