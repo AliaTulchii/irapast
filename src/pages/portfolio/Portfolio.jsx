@@ -2,34 +2,18 @@ import React from 'react'
 import './style.css'
 import ActiveSlider from '../../components/activeslider/ActiveSlider'
 
-// import Family from '../../img/slider/family.jpg'
-// import Pairs from '../../img/slider/pairs.jpg'
-// import Oneself from '../../img/slider/oneself.jpg'
-// import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-
-// import Img1 from './../../img/portfolio/photo-1.jpg'
-// import Img2 from './../../img/portfolio/photo-2.jpg'
-// import Img3 from './../../img/portfolio/photo-3.jpg'
-// import Img4 from './../../img/portfolio/photo-4.jpg'
-// import Img5 from './../../img/portfolio/photo-5.jpg'
-// import Img6 from './../../img/portfolio/photo-6.jpg'
-// import Img7 from './../../img/portfolio/photo-7.jpg'
-// import Img8 from './../../img/portfolio/photo-8.jpg'
-// import Img9 from './../../img/portfolio/photo-9.jpg'
-// import Img10 from './../../img/portfolio/photo-10.jpg'
-// import Img11 from './../../img/portfolio/photo-11.jpg'
-// import Img12 from './../../img/portfolio/photo-12.jpg'
-
-
 
 
 
 
 const Portfolio = () => {
+
   return (
     <div>
       <section className='portfolio container'>
-        <ActiveSlider/>
+        <ActiveSlider />
+        
+        
       </section>
     </div>
   )

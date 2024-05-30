@@ -1,0 +1,16 @@
+
+.collection__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    justify-content: center;
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:40px;
+    flex-basis: calc((100% - 60px) / 2);
+  }
+
+  .collection__item{
+    width: 450px;
+  }
