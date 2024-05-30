@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/irapast/static/css/main.04afffcf.css",
-    "main.js": "/irapast/static/js/main.e735e127.js",
+    "main.css": "/irapast/static/css/main.022f4880.css",
+    "main.js": "/irapast/static/js/main.115a6f72.js",
     "static/media/pair3.jpg": "/irapast/static/media/pair3.6ee86b2cac5eec0000eb.jpg",
     "static/media/family.jpg": "/irapast/static/media/family.495b30c06f89aeab6703.jpg",
     "static/media/family3.jpg": "/irapast/static/media/family3.495b30c06f89aeab6703.jpg",
@@ -50,11 +50,11 @@
     "static/media/tiktok.svg": "/irapast/static/media/tiktok.77bb3d6a5e10a1783829879742e73d4b.svg",
     "static/media/inst.svg": "/irapast/static/media/inst.a1fd2e48b15e6c993ebb224aa18fd71b.svg",
     "index.html": "/irapast/index.html",
-    "main.04afffcf.css.map": "/irapast/static/css/main.04afffcf.css.map",
-    "main.e735e127.js.map": "/irapast/static/js/main.e735e127.js.map"
+    "main.022f4880.css.map": "/irapast/static/css/main.022f4880.css.map",
+    "main.115a6f72.js.map": "/irapast/static/js/main.115a6f72.js.map"
   },
   "entrypoints": [
-    "static/css/main.04afffcf.css",
-    "static/js/main.e735e127.js"
+    "static/css/main.022f4880.css",
+    "static/js/main.115a6f72.js"
   ]
 }
