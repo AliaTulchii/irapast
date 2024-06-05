@@ -10,16 +10,17 @@ import './style.css'
 
 import { motion } from 'framer-motion'
 import { transition1 } from '../../transitions'
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+
 
 import {  Pagination, EffectCoverflow,Navigation } from 'swiper/modules'
 
-import { ServiceData } from '../../constants/index'
+import { ServiceData } from '../../constants/index.js'
+import { useTranslation } from 'react-i18next'
 
 
 const ActiveSlider = () => {
     const [activeTitle, setActiveTitle] = useState("");
-
+    const { i18n, t } = useTranslation(["global"])
 
     return (
       <div>
@@ -30,23 +31,6 @@ const ActiveSlider = () => {
       transition={transition1}
           className='slider__box'>
           <Swiper
-        //   breakpoints={{
-        //           340: {
-        //           slidesPerView: 2,
-        //           spaceBetween: 10
-        //           },
-        //           1200: {
-        //             slidesPerView: 2,
-        //             spaceBetween: 15
-        //       }
-              
-        //       }}
-              
-        //       freeMode={true}
-        //       pagination={{
-        //           clickable: true,
-        //       }}
-                    //       modules={[FreeMode, Pagination]}
                     effect={'coverflow'}
                     grabCursor={true}
                     centeredSlides={true}
@@ -67,7 +51,7 @@ const ActiveSlider = () => {
                         clickable: true
                     }}
                     modules={[EffectCoverflow, Pagination, Navigation]}
-              className='slider_container'
+              className='slider__container'
           >
               {ServiceData.map((item) => (
                   <SwiperSlide key={item.id}>
@@ -77,17 +61,17 @@ const ActiveSlider = () => {
                               className='slider__hover'>
                               <div className='slider__content'>               
                              
-                              <h1 className='slider__title'>{item.title}</h1>
-                              <p className='slider__text'>{item.content}</p>
+                                  <h1 className='slider__title'>{t(`title_key.${item.title_key}`)}</h1>
+                              <p className='slider__text'>{t(`content_key.${item.content_key}`)}</p>
                               
-                              <button  className='slider__btn'  onClick={() => setActiveTitle(item.title)}>
+                              <button  className='slider__btn'  onClick={() => setActiveTitle(item.id)}>
                                   <item.icon className='slider__icon' />
-                                  Більше фото
+                                  {t('slider_button')}
                               </button>
                           </div>
                           </div>
                           <div className='slider__nonhover'>
-                               <h1 className='slider__title'>{item.title}</h1>
+                               <h1 className='slider__title'>{t(`title_key.${item.title_key}`)}</h1>
                           </div>
                          
                       </div>
@@ -102,7 +86,7 @@ const ActiveSlider = () => {
             
             
             <ul className='collection__list'>
-        {ServiceData.filter((item) => item.title === activeTitle).map(({ collection }) => (
+        {ServiceData.filter((item) => item.id === activeTitle).map(({ collection }) => (
           collection.map(({ image, id, text }) => (
             <li className='collection__item' key={id}>
               <img src={image} alt={text} />
@@ -111,17 +95,6 @@ const ActiveSlider = () => {
         ))}
       </ul>
 
-            {/* <ul className='toggle__list'>
-                {
-                IndividData.map(({ image, id, text }) => {
-                    return (                        
-                            <li className='toggle__item' key={id}>
-                                <img src={image} alt={text} />
-                            </li>
-                        
-                    )
-                })}
-            </ul> */}
             
       </div>
       

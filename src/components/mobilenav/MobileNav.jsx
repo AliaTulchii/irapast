@@ -5,6 +5,7 @@ import { CgMenuRight } from 'react-icons/cg'
 
 import {Link} from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 
 const menuVariants = {
     hidden: {
@@ -20,6 +21,7 @@ const menuVariants = {
 
 
 const MobileNav = () => {
+  const { i18n, t } = useTranslation(["global"])
     const [openMenu, setOpenMenu] = useState(false)
 
 
@@ -38,22 +40,22 @@ const MobileNav = () => {
               <ul className="mbmenu__list">
               <li className="mbmenu__item">
                 <Link to={'/'} className="mbmenu__link lng-home">
-                  Головна
+                {t("header.home")}
                 </Link>
               </li>
               <li className="mbmenu__item">
                 <Link to={'/portfolio'} className="mbmenu__link lng-portfolio">
-                  Портфоліо
+                {t("header.portfolio")}
                 </Link>
               </li>
               <li className="mbmenu__item">
                 <Link to={'/price'} className="mbmenu__link lng-price">
-                  Прайс
+                {t("header.price")}
                 </Link>
               </li>
               <li className="mbmenu__item">
                 <Link to={'/contacts'} className="mbmenu__link lng-contact">
-                  Контакти
+                {t("header.contact")}
                 </Link>
               </li>
       </ul>

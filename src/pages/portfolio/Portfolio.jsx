@@ -11,9 +11,7 @@ const Portfolio = () => {
   return (
     <div>
       <section className='portfolio container'>
-        <ActiveSlider />
-        
-        
+        <ActiveSlider />        
       </section>
     </div>
   )

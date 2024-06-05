@@ -8,10 +8,13 @@ import Photo from './../../img/contacts/photo-4.jpg'
 
 import { motion } from 'framer-motion'
 import { transition1 } from '../../transitions'
+import { useTranslation } from 'react-i18next'
 
 
 
 const Contacts = () => {
+  const { i18n, t } = useTranslation(["global"])
+
   return (
     <div>
       <section class="contact container">
@@ -35,7 +38,7 @@ const Contacts = () => {
            <li class="contact__item">
                <img src={Address} alt="email" class="contact__icon"/>
                <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer" class="contact__address lng-address">
-                Польща, м. Варшава</a>
+                {t('address.text')}</a>
            </li>
            <li class="contact__item">
             <img src={Email} alt="email" class="contact__icon"/>

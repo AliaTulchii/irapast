@@ -1,0 +1,62 @@
+{
+    "header":{
+    "home": "Główna",
+    "portfolio": "Portfolio",
+    "price": "Price",
+    "contact": "Kontakty"
+    },
+    "footer":{
+        "home": "Główna",
+        "portfolio": "Portfolio",
+        "price": "Price",
+        "contact": "Kontakty"
+        },
+
+    "hero": {
+        "title": "Kto szuka piękna, zawsze je znajdzie",
+        "text": "W fotografiach podoba mi się to, że zatrzymują chwilę, która przeminęła na zawsze i jest niemożliwa do odtworzenia."
+    },
+    "about" : {
+        "title": "Cześć, mam na imię Ira...",
+        "up": "... i cieszę się, że widzę Cię na mojej stronie.",
+        "middle": "Jestem fotografem, który sprawi, że będziesz choć trochę szczęśliwszy. Fotografia to moje hobby, które sprawia mi przyjemność.",
+        "down": "Zapraszam na sesję zdjęciową! Stwórzmy razem piękno!",
+        "rotatefirst": "Cieszę się że cię widzę",
+        "rotatesecond": "Cieszę się że cię widzę"
+    },
+    "title_key": {
+        "individual_photo_session": "Indywidualna sesja zdjęciowa",
+        "pair_photo_session": "Sesja zdjęciowa dla dwojga",
+        "family_photo_session": "Rodzinna sesja zdjęciowa",
+        "friends_photo_session": "Sesja zdjęciowa z przyjaciółmi"
+      },
+"content_key": {
+  "individual_photo_session": "Indywidualna sesja zdjęciowa to niepowtarzalna okazja, aby w wyjątkowych ujęciach oddać swoją osobowość, styl i emocje. To świetny sposób, aby pozostawić pamiątkę ważnego momentu w swoim życiu lub po prostu sprawić sobie przyjemność niezapomnianym przeżyciem. Zamów indywidualną sesję zdjęciową i zamień swoje marzenia w refleksję!",
+  "pair_photo_session":  "Sesja zdjęciowa dla pary to nie tylko zdjęcia, ale także sposób na celebrację wyjątkowej więzi i uczuć. Sesja zdjęciowa dla zakochanej pary to świetny sposób na uczczenie swojej miłości i stworzenie wyjątkowych zdjęć, które będą przypominać o Waszej wyjątkowej historii. Zamów sesję zdjęciową i zachowaj emocje na zawsze!",
+  "family_photo_session":  "Rodzinna sesja zdjęciowa to świetny sposób na zachowanie wspólnych chwil i stworzenie na zawsze ważnych zdjęć, które przekazują ciepło, radość i miłość Twojej rodziny. Chętnie pomogę Ci stworzyć niepowtarzalne ujęcia, które staną się wyjątkową pamiątką i zachwycą Ciebie i Twoją rodzinę na długie lata. Zamów rodzinną sesję zdjęciową i twórzcie wspólnie niezapomniane wspomnienia!",
+  "friends_photo_session":  "Sesja zdjęciowa ze znajomymi to świetna okazja, aby uwiecznić zabawne momenty i stworzyć na zawsze zabawne zdjęcia, które przekazują zapał, radość i mega pozytywne ujęcia spotkań ze znajomymi."
+},
+"slider_button" : "Więcej zdjęć",
+    "address": {
+        "text": "Polska, Warszawa"
+    },
+    "individ": "Indywidualny",
+    "person": "2-osobowy",
+    "another": "Inne",
+    "indprice": "Cena indywidualna",
+    "desc-1": "Sesja zdjęciowa 1-1,5 godziny",
+    "desc-6": "Sesja zdjęciowa 2 godziny",
+    "desc-2": "dostęp do wszystkich zdjęć",
+    "desc-7": "dostęp do wszystkich zdjęć",
+    "desc-3": "10 zdjęć sformatowanych",
+    "desc-8": "20 zdjęć sformatowanych",
+    "desc-4": "każde kolejne zdjęcie - 20 zł/szt",
+    "desc-9": "każde kolejne zdjęcie - 20 zł/szt",
+    "desc-5": "pomoc w pozowaniu, wyborze lokalizacji, stylu",
+    "desc-10": "pomoc w pozowaniu, wyborze lokalizacji, stylu",
+    "desc-11": "uroczyste wydarzenia",
+    "desc-12": "przedmiotowa",
+    "desc-13": "rodzinna",
+    "desc-14": "biznes"
+
+}

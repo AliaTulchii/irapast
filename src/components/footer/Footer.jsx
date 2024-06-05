@@ -8,8 +8,11 @@ import mail from "./../../img/footer/email.png";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {transition1} from './../../transitions'
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("global")
+
   return (
     
     <motion.footer
@@ -28,7 +31,7 @@ const Footer = () => {
           <ul className="footer__list">
             <li className="footer__item">
               <Link to={'/'} className="footer__link lng-footerhome">
-                Головна
+              {t("footer.home")}
               </Link>
             </li>
             <li className="footer__item">
@@ -36,17 +39,17 @@ const Footer = () => {
                 to={'/portfolio'}
                 className="footer__link lng-footerportfolio"
               >
-                Портфоліо
+                {t("footer.portfolio")}
               </Link>
             </li>
             <li className="footer__item">
               <Link to={'/price'} className="footer__link lng-footerprice">
-                Прайс
+              {t("footer.price")}
               </Link>
             </li>
             <li className="footer__item">
               <Link to={'/contacts'} className="footer__link lng-footercontact">
-                Контакти
+              {t("footer.contact")}
               </Link>
             </li>
           </ul>

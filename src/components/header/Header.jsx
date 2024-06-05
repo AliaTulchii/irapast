@@ -8,9 +8,16 @@ import MobileNav from '../mobilenav/MobileNav';
 
 import { motion } from 'framer-motion';
 import { transition1 } from '../../transitions';
+import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 
 
 const Header = () => {
+ const [t, i18n] = useTranslation("global")
+  const handleChangeLanguage = (lang: string) => {
+    i18n.changeLanguage(lang)
+  }
+  
   return (
     
     <motion.header
@@ -28,7 +35,9 @@ const Header = () => {
             </div>
 
             <Nav/>
-
+          <button onClick={()=> handleChangeLanguage("ua")}>UA</button>
+          <button onClick={()=> handleChangeLanguage("pl")}>PL</button>
+          
 
             <MobileNav/>
           </div>

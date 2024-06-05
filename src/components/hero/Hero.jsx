@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './style.css'
+import { useTranslation } from 'react-i18next';
 
 import { motion } from 'framer-motion'
 import { transition1 } from '../../transitions';
 
 
 const Hero = () => {
+  const { i18n, t } = useTranslation(["global"])
+  
+  
+
   return (
     <motion.section
     initial={{ opacity: 0, y: '-50%' }}
@@ -15,11 +20,10 @@ const Hero = () => {
       className="hero">
         <div className="container">
           <h1 className="hero__title lng-herotitle">
-            Той хто шукає красоту, завжди її знайде
+            {t("hero.title")}
           </h1>
           <p className="hero__text lng-herotext">
-            " Що мені подобається у фотографії , це те, що в ній спійманий
-            момент, який пішов назавжди, який неможливо відтворити. "
+            {t("hero.text")}
           </p>
 
           <div className="hero__text-row">

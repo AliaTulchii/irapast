@@ -5,8 +5,11 @@ import About from "./../components/about/About";
 import { motion } from 'framer-motion'
 import { transition1 } from '../transitions';
 
+// import { useTranslation } from 'react-i18next';
+
 
 const Home = () => {
+  
   return (
     <motion.section
       initial={{ opacity: 0 }}

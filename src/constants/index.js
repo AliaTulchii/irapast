@@ -56,12 +56,14 @@ import friends2 from '../img/portfolio/friends/friends2.jpg'
 
 
 
+
+
 export const ServiceData = [
     {
         id:1,
         icon: GiPhotoCamera,
-        title: "Індивідуальна фотосесія",
-        content: "Індивідуальна фотосесія - це унікальна можливість відобразити вашу особистість, стиль та емоції у неповторних кадрах. Це чудовий спосіб залишити згадку про важливий момент у вашому житті або просто порадувати себе незабутнім досвідом. Замовте індивідуальну фотосесію і перетворіть ваші мрії у відображення!",
+        title_key: "individual_photo_session",
+        content_key: "individual_photo_session",
         backgroundImage: individual,
         collection: [
             {
@@ -160,8 +162,8 @@ export const ServiceData = [
     {
         id: 2,
         icon: GiPhotoCamera,
-        title: " Фотосесія для двох",
-        content: "Фотосесія для пари - це не лише знімки, але й спосіб відзначити вашу унікальну зв'язок та почуття. Фотосесія для закоханої пари - це чудовий спосіб відсвяткувати вашу любов та створити вишукані зображення, що будуть нагадувати про вашу неповторну історію. Замовте фотосесію та збережіть свої емоції на завжди!",
+        title_key: "pair_photo_session",
+        content_key: "pair_photo_session",
         backgroundImage: pair,
         
         collection: [
@@ -210,8 +212,8 @@ export const ServiceData = [
     {
         id:3,
         icon: GiPhotoCamera,
-        title: "Сімейна фотосесія",
-        content: " Сімейна фотосесія - це чудовий спосіб зберегти спільні моменти та створити назавжди важливі знімки, що передають тепло, радість та любов вашої родини. Я з радістю допоможу вам створити неповторні кадри, які стануть особливою пам'яттю та будуть радувати вас та вашу сім'ю ще довгі роки. Замовте сімейну фотосесію і створіть незабутні спогади разом!",
+        title_key: "family_photo_session",
+        content_key: "family_photo_session",
         backgroundImage: family,
         collection: [
             {
@@ -264,8 +266,8 @@ export const ServiceData = [
     {
         id:4,
         icon: GiPhotoCamera,
-        title: " Фотосесія з друзями",
-        content: " Фотосесія з друзями - це прекрасна можливість закарбувати кумедні моменти та створити назавжди веселі знімки ,що передають драйв, радість та мега позитивні кадри зустрічей з друзями.",
+        title_key: "friends_photo_session",
+        content_key: "friends_photo_session",
         backgroundImage: friends,
         collection: [
             {

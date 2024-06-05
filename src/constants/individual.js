@@ -1,3 +1,4 @@
+
 import boy1 from '../img/portfolio/individual/boy1.jpg'
 import boy2 from '../img/portfolio/individual/boy2.jpg'
 import boy3 from '../img/portfolio/individual/boy3.jpg'
@@ -17,6 +18,7 @@ import urban3 from '../img/portfolio/individual/urban3.jpg'
 import urban4 from '../img/portfolio/individual/urban4.jpg'
 import urban5 from '../img/portfolio/individual/urban5.jpg'
 import white1 from '../img/portfolio/individual/white1.jpg'
+
 
 
 export const IndividData = [
@@ -111,3 +113,4 @@ export const IndividData = [
         text: "girl",
     },
 ]
+
