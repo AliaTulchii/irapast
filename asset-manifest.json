@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/irapast/static/css/main.022f4880.css",
-    "main.js": "/irapast/static/js/main.115a6f72.js",
+    "main.css": "/irapast/static/css/main.ae6e4cff.css",
+    "main.js": "/irapast/static/js/main.28f4d795.js",
     "static/media/pair3.jpg": "/irapast/static/media/pair3.6ee86b2cac5eec0000eb.jpg",
-    "static/media/family.jpg": "/irapast/static/media/family.495b30c06f89aeab6703.jpg",
     "static/media/family3.jpg": "/irapast/static/media/family3.495b30c06f89aeab6703.jpg",
     "static/media/family2.jpg": "/irapast/static/media/family2.5adf8c4f55bc25afb533.jpg",
     "static/media/pair7.jpg": "/irapast/static/media/pair7.3be2193299d04f828f5b.jpg",
@@ -15,14 +14,15 @@
     "static/media/family6.jpg": "/irapast/static/media/family6.ef17196677d4b1ab2217.jpg",
     "static/media/family8.jpg": "/irapast/static/media/family8.0b4f026211b7578e15a1.jpg",
     "static/media/family5.jpg": "/irapast/static/media/family5.091671487d4cfc5d41e1.jpg",
-    "static/media/pairs.jpg": "/irapast/static/media/pairs.ba0d164a84a700eb2792.jpg",
     "static/media/pair1.jpg": "/irapast/static/media/pair1.6e1050852762e9a1762c.jpg",
     "static/media/pair5.jpg": "/irapast/static/media/pair5.6e1050852762e9a1762c.jpg",
     "static/media/white1.jpg": "/irapast/static/media/white1.b2a7baf6f48c1d9b5703.jpg",
     "static/media/family9.jpg": "/irapast/static/media/family9.e2066e9d1566887f33ae.jpg",
     "static/media/pair6.jpg": "/irapast/static/media/pair6.20a7954151e7f36ac386.jpg",
-    "static/media/oneself.jpg": "/irapast/static/media/oneself.3a6b250c5d9e3b2d8eb9.jpg",
     "static/media/pair8.jpg": "/irapast/static/media/pair8.ec6d6b729388a03d8abe.jpg",
+    "static/media/family.jpg": "/irapast/static/media/family.961841cb411e68e6af97.jpg",
+    "static/media/pairs.jpg": "/irapast/static/media/pairs.a882f3f9cc61f0b478f3.jpg",
+    "static/media/oneself.jpg": "/irapast/static/media/oneself.b4508ed0c5adbf01b198.jpg",
     "static/media/photo.jpeg": "/irapast/static/media/photo.13717da89ca11fc7ee33.jpeg",
     "static/media/marble.jpg": "/irapast/static/media/marble.2c43fe3a6df352a5eb8a.jpg",
     "static/media/bubble1.jpg": "/irapast/static/media/bubble1.d79dfda2ee4e415bad4e.jpg",
@@ -50,11 +50,11 @@
     "static/media/tiktok.svg": "/irapast/static/media/tiktok.77bb3d6a5e10a1783829879742e73d4b.svg",
     "static/media/inst.svg": "/irapast/static/media/inst.a1fd2e48b15e6c993ebb224aa18fd71b.svg",
     "index.html": "/irapast/index.html",
-    "main.022f4880.css.map": "/irapast/static/css/main.022f4880.css.map",
-    "main.115a6f72.js.map": "/irapast/static/js/main.115a6f72.js.map"
+    "main.ae6e4cff.css.map": "/irapast/static/css/main.ae6e4cff.css.map",
+    "main.28f4d795.js.map": "/irapast/static/js/main.28f4d795.js.map"
   },
   "entrypoints": [
-    "static/css/main.022f4880.css",
-    "static/js/main.115a6f72.js"
+    "static/css/main.ae6e4cff.css",
+    "static/js/main.28f4d795.js"
   ]
 }
