@@ -3,7 +3,9 @@
     "home": "Główna",
     "portfolio": "Portfolio",
     "price": "Price",
-    "contact": "Kontakty"
+    "contact": "Kontakty",
+    "UA": "UA",
+    "PL": "Pl"
     },
     "footer":{
         "home": "Główna",

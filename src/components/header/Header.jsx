@@ -38,13 +38,13 @@ const Header = () => {
               className="header__btn"
               onClick={() => handleChangeLanguage("ua")}
             >
-              UA
+              {t("UA")}
             </button>
             <button
               className="header__btn"
               onClick={() => handleChangeLanguage("pl")}
             >
-              PL
+              {t("PL")}
             </button>
           </div>
 
