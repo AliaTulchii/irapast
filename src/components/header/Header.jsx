@@ -14,7 +14,7 @@ import { useTranslation } from 'react-i18next';
 
 const Header = () => {
  const [t, i18n] = useTranslation("global")
-  const handleChangeLanguage = (lang: string) => {
+  const handleChangeLanguage = (lang) => {
     i18n.changeLanguage(lang)
   }
   
@@ -34,9 +34,12 @@ const Header = () => {
               </Link>
             </div>
 
-            <Nav/>
-          <button onClick={()=> handleChangeLanguage("ua")}>UA</button>
-          <button onClick={()=> handleChangeLanguage("pl")}>PL</button>
+          <Nav />
+          <div className='header__btns'>
+          <button className='header__btn' onClick={()=> handleChangeLanguage("ua")}>UA</button>
+          <button className='header__btn' onClick={()=> handleChangeLanguage("pl")}>PL</button>
+          </div>
+          
           
 
             <MobileNav/>

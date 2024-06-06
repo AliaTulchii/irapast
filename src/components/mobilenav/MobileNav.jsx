@@ -24,6 +24,9 @@ const MobileNav = () => {
   const { i18n, t } = useTranslation(["global"])
     const [openMenu, setOpenMenu] = useState(false)
 
+    const handleChangeLanguage = (lang) => {
+      i18n.changeLanguage(lang)
+    }
 
   return (
     <nav className='mbmenu'>
@@ -33,10 +36,18 @@ const MobileNav = () => {
           <motion.div variants={menuVariants}
               initial='hidden'
               animate = {openMenu ? 'show' : ''}
-              className='mbmenu__menu'>
-              <div onClick={()=> setOpenMenu(false)} className='mbmenu__close'>
+        className='mbmenu__menu'>
+        <div className='mbmenu__header'>
+           <div onClick={()=> setOpenMenu(false)} className='mbmenu__close'>
                   <IoMdClose/>
-              </div>
+          </div>
+          
+        <div className='mblang__btns'>
+          <button className='mblang__btn' onClick={()=> handleChangeLanguage("ua")}>UA</button>
+          <button className='mblang__btn' onClick={()=> handleChangeLanguage("pl")}>PL</button>
+          </div>
+        </div>
+             
               <ul className="mbmenu__list">
               <li className="mbmenu__item">
                 <Link to={'/'} className="mbmenu__link lng-home">

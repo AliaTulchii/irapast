@@ -23,3 +23,21 @@
     gap: 10px;
     margin-left: auto;
   }
+
+
+
+  .header__btn{
+    color: var(--accent);
+
+    @media screen and (max-width: 1024px){
+      display: none;
+    }
+  }
+
+  .header__btn:not(:last-child){
+    margin-right: 15px;
+  }
+
+  .header__btn:hover{
+    color: var(--accent-hover);
+  }

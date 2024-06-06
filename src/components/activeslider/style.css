@@ -4,6 +4,10 @@
     /* padding: 1rem 1rem; */
     margin: 0 auto;
 
+    @media screen and (max-width:1024px){
+      overflow-x: hidden;
+      height: 550px;
+    }
 }
 
 
@@ -19,20 +23,22 @@
     width: 350px;
     height: 615px;
     position: relative;
+
+    
   }
 
   
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .swiper_container {
-      height: 47rem;
+      height: 400px;
     }
     .swiper-slide {
-      width: 28rem !important;
-      height: 36rem !important;
+      width: 300px;
+    height: 450px;
     }
     .swiper-slide img {
-      width: 28rem !important;
-      height: 36rem !important;
+      width: 300px;
+    height: 550px;
     }
   }
 
@@ -94,10 +100,10 @@
     overflow: hidden;
     cursor: pointer;
 
-    @media screen and (min-width:768px) and ( max-width:1199px){
-        width: 350px;
-    height: 450px;
-    gap: 14px;
+    @media screen and ( max-width:1024px){
+        width: 300px;
+    height: 400px;
+    gap: 10px;
     }
 }
 
@@ -136,6 +142,11 @@
     flex-direction: column;
     gap: 12px;
     border-radius: 12px;
+
+    @media screen and (max-width: 1024px){
+      margin-top: 40%;
+    padding: 15px;
+    }
 }
 
 .slider__nonhover{
@@ -152,6 +163,10 @@ font-family: Inter;
 color: var(--accent-hover);
 font-size: 16px;
 
+@media screen and (max-width: 1024px){
+  font-size: 10px;
+}
+
 }
 
 .slider__btn:hover, .slider__icon{
@@ -164,6 +179,11 @@ font-size: 16px;
     height: 32px;
     color: var(--accent--hover);
     margin-right: 5px;
+
+    @media screen and (max-width: 1024px){
+      width: 24px;
+    height: 24px;
+    }
 }
 
 
@@ -171,11 +191,19 @@ font-size: 16px;
     font-size: 32px; 
 line-height: 1.4;
 color: var(--accent-hover);
+
+@media screen and (max-width: 1024px){
+  font-size: 24px; 
+}
+
 }
 
 .slider__text{
     font-size: 14px;
 
+    @media screen and (max-width: 1024px){
+      font-size: 11px; 
+    }
 }
 
 

@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Hero from "./../components/hero/Hero";
 import About from "./../components/about/About";
-
+import Loader from '../components/loader/Loader'
 import { motion } from 'framer-motion'
 import { transition1 } from '../transitions';
 
@@ -17,8 +17,12 @@ const Home = () => {
       exit={{ opacity: 0 }}
       transition={transition1}
     >
-      <Hero/>
+     
+        <Hero/>
       <About />
+        
+  
+      
     </motion.section>
   )
 }

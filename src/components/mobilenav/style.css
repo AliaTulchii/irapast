@@ -6,18 +6,39 @@
     
 }
 
+.mbmenu__header{
+    height: 60px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .mbmenu__btn{    
     font-size: 32px;
     cursor: pointer;
 }
 
+
+
 .mbmenu__close{
     font-size: 32px;
-    position: absolute;
-    left: 8px;
-    top: 8px;
+    /* position: absolute; */
+    /* left: 8px;
+    top: 8px; */
     z-index: 30;
     cursor: pointer;
+}
+
+.mblang__btn{
+    color: var(--page-bg);
+
+}
+
+.mblang__btn:not(:last-child){
+    margin-right: 10px;
 }
 
 .mbmenu__menu{

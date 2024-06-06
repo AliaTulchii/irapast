@@ -4,14 +4,16 @@ import './../../styles/main.css'
 
 import { Link } from 'react-router-dom'
 import { useTranslation } from "react-i18next";
-import i18next from "i18next";
+
 
 const Nav = () => {
   const [t, i18n] = useTranslation("global")
-
+ 
   
   return (
     <div>
+      
+
       <nav className="nav__list">
               <li className="nav__item">
                 <Link to='/' className="nav__link lng-home">
