@@ -1,10 +1,11 @@
 .slider__box {
-  max-width: 700px;
+  max-width: 900px;
   height: 750px;
   margin: 0 auto;
 
   @media screen and (max-width: 1024px) {
     overflow-x: hidden;
+    max-width: 700px;
     height: 550px;
   }
 }
