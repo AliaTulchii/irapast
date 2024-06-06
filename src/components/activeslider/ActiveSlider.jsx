@@ -71,7 +71,11 @@ const ActiveSlider = () => {
                           </div>
                           </div>
                           <div className='slider__nonhover'>
-                               <h1 className='slider__title'>{t(`title_key.${item.title_key}`)}</h1>
+                              <h1 className='slider__title'>{t(`title_key.${item.title_key}`)}</h1>
+                              <button  className='slider__btn'  onClick={() => setActiveTitle(item.id)}>
+                                  <item.icon className='slider__icon' />
+                                  {t('slider_button')}
+                              </button>
                           </div>
                          
                       </div>
