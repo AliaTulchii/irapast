@@ -11,7 +11,7 @@ import { transition1 } from "./../../transitions";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   return (
     <motion.footer

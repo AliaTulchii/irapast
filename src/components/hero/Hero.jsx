@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./style.css";
 import { useTranslation } from "react-i18next";
 
@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
 
 const Hero = () => {
-  const { i18n, t } = useTranslation(["global"]);
+  const { t } = useTranslation(["global"]);
 
   return (
     <motion.section

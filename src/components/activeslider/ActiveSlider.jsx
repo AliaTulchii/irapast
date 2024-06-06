@@ -17,7 +17,7 @@ import { useTranslation } from "react-i18next";
 
 const ActiveSlider = () => {
   const [activeTitle, setActiveTitle] = useState("");
-  const { i18n, t } = useTranslation(["global"]);
+  const {  t } = useTranslation(["global"]);
 
   return (
     <div>

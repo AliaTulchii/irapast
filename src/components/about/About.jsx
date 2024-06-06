@@ -7,7 +7,7 @@ import { transition1 } from '../../transitions';
 import { useTranslation } from 'react-i18next';
 
 const About = () => {
-  const [t, i18n] = useTranslation("global")
+  const [t] = useTranslation("global")
   return (
     <section className="about container">
       <motion.div

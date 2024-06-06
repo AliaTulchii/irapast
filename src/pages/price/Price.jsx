@@ -6,7 +6,7 @@ import { transition1 } from "../../transitions";
 import { useTranslation } from "react-i18next";
 
 const Price = () => {
-  const { i18n, t } = useTranslation(["global"]);
+  const {  t } = useTranslation(["global"]);
   return (
     <>
       <motion.section
