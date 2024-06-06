@@ -1,71 +1,60 @@
-.mbmenu{
-    @media  screen and (min-width: 768px){
-        display: none;
-    }
-        
-    
+.mbmenu {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
-.mbmenu__header{
-    height: 60px;
-    padding: 0 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.mbmenu__header {
+  height: 60px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.mbmenu__btn{    
-    font-size: 32px;
-    cursor: pointer;
+.mbmenu__btn {
+  font-size: 32px;
+  cursor: pointer;
 }
 
-
-
-.mbmenu__close{
-    font-size: 32px;
-    /* position: absolute; */
-    /* left: 8px;
-    top: 8px; */
-    z-index: 30;
-    cursor: pointer;
+.mbmenu__close {
+  font-size: 32px;
+  z-index: 30;
+  cursor: pointer;
 }
 
-.mblang__btn{
-    color: var(--page-bg);
-
+.mblang__btn {
+  color: var(--page-bg);
 }
 
-.mblang__btn:not(:last-child){
-    margin-right: 10px;
+.mblang__btn:not(:last-child) {
+  margin-right: 10px;
 }
 
-.mbmenu__menu{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: var(--accent);
-    /* box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); */
-    color: var(--page-bg);
-    width: 100%;
-    max-width: 20rem;
-    height: 100vh;
-    z-index: 20;
+.mbmenu__menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--accent);
+  color: var(--page-bg);
+  width: 100%;
+  max-width: 20rem;
+  height: 100vh;
+  z-index: 20;
 }
 
-.mbmenu__list{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 32px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1,2;    
-    
+.mbmenu__list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1, 2;
 }
-.mbmenu__link{
-    color: var(--page-bg);
+.mbmenu__link {
+  color: var(--page-bg);
 }
